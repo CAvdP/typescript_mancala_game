@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Typescript Mancala game 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Future features to add:
+
+- [ ] Add more unit tests
+- [ ] Add animations
+- [ ] Create UI blocks
+- [ ] Add game-modes
+- [ ] Add bot
+- [ ] Move logic to the backend to prevent cheating
+- [ ] Add music
+- [ ] Add save function
+- [ ] Add multiplayer
+- [ ] Add fast version of the game with a timer
 
 ## Available Scripts
 
