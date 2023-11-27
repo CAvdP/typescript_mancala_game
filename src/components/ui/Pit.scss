@@ -1,0 +1,24 @@
+.pit {
+    transition: all .2s ease-in-out;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    border-radius: 50%;
+    margin: 20px;
+
+    &.active {
+        cursor: pointer;
+        color: #fff;
+
+
+        /* outer right cyan */
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}

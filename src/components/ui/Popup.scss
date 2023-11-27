@@ -1,0 +1,14 @@
+#pop-up {
+    position: absolute;
+    width: 1400px;
+    height: 600px;
+    z-index: 100;
+    left: calc(50% - 700px);
+    top: calc(50% - 300px);
+    background-color: #100751;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
