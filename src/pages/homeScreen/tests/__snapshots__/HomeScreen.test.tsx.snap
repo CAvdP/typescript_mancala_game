@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen Component matches the saved snapshot 1`] = `
+<div
+  id="screen"
+>
+  <button
+    className="neon_pink_blue btn"
+    id="restart-btn"
+    onClick={[Function]}
+  >
+    Restart
+  </button>
+  <div
+    id="board"
+  >
+    <div
+      id="top_row_pits"
+    >
+      <button
+        className="pit disabled"
+        disabled={true}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit disabled"
+        disabled={true}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit disabled"
+        disabled={true}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit disabled"
+        disabled={true}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit disabled"
+        disabled={true}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit disabled"
+        disabled={true}
+        onClick={[Function]}
+      >
+        4
+      </button>
+    </div>
+    <div
+      id="middle_section"
+    >
+      <div
+        className="store disabled"
+      >
+        0
+      </div>
+      <button
+        className="message-board neon_pink_blue"
+        onClick={[Function]}
+      >
+        Player one
+      </button>
+      <div
+        className="store neon_blue"
+      >
+        0
+      </div>
+    </div>
+    <div
+      id="bottom_row_pits"
+    >
+      <button
+        className="pit active neon_blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit active neon_blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit active neon_blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit active neon_blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit active neon_blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        className="pit active neon_blue"
+        disabled={false}
+        onClick={[Function]}
+      >
+        4
+      </button>
+    </div>
+  </div>
+</div>
+`;

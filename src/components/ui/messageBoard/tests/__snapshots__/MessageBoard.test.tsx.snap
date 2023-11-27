@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageBoard Component matches the saved snapshot 1`] = `
+<button
+  className="message-board neon_pink_blue"
+  onClick={[Function]}
+>
+  Player two
+</button>
+`;

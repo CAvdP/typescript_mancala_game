@@ -1,5 +1,5 @@
 import React from 'react';
-import './MessageBoard.scss';
+import './styling/MessageBoard.scss';
 
 interface Props {
  playerOneTurn: boolean;

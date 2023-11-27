@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import './HomeScreen.scss';
-import '../styling/theme.scss';
+import './styling/HomeScreen.scss';
+import '../../styling/theme.scss'
 
-import Pit from '../components/ui/Pit';
-import Store from '../components/ui/Store';
-import MessageBoard from '../components/ui/MessageBoard';
-import Popup from '../components/ui/Popup';
+import Pit from '../../components/ui/pit/Pit';
+import Store from '../../components/ui/store/Store';
+import MessageBoard from '../../components/ui/messageBoard/MessageBoard';
+import Popup from '../../components/ui/popup/Popup';
 
 
 const HomeScreen = ()=> {
@@ -91,25 +91,25 @@ const HomeScreen = ()=> {
         <button id='restart-btn' className='neon_pink_blue btn' onClick={()=> ResetGame()}>Restart</button>
         <div id='board'>    
             <div id='top_row_pits'>
-                <Pit id={6} weight={seeds[6]} onClick={startMove} className='neon_pink'/>
-                <Pit id={5} weight={seeds[5]} onClick={startMove} className='neon_pink'/>
-                <Pit id={4} weight={seeds[4]} onClick={startMove} className='neon_pink'/>
-                <Pit id={3} weight={seeds[3]} onClick={startMove} className='neon_pink'/>
-                <Pit id={2} weight={seeds[2]} onClick={startMove} className='neon_pink'/>
-                <Pit id={1} weight={seeds[1]} onClick={startMove} className='neon_pink'/>
+                <Pit id={6} weight={seeds[6]} enabled={playerOneTurn === false} onClick={startMove} className='neon_pink'/>
+                <Pit id={5} weight={seeds[5]} enabled={playerOneTurn === false} onClick={startMove} className='neon_pink'/>
+                <Pit id={4} weight={seeds[4]} enabled={playerOneTurn === false} onClick={startMove} className='neon_pink'/>
+                <Pit id={3} weight={seeds[3]} enabled={playerOneTurn === false} onClick={startMove} className='neon_pink'/>
+                <Pit id={2} weight={seeds[2]} enabled={playerOneTurn === false} onClick={startMove} className='neon_pink'/>
+                <Pit id={1} weight={seeds[1]} enabled={playerOneTurn === false} onClick={startMove} className='neon_pink'/>
             </div>
             <div id='middle_section'>
-                <Store weight={seeds[7]} className='neon_pink'/>
+                <Store weight={seeds[7]} enabled={playerOneTurn ===false} className='neon_pink'/>
                 <MessageBoard playerOneTurn={playerOneTurn} />
-                <Store weight={seeds[0]} className='neon_blue'/>
+                <Store weight={seeds[0]} enabled={playerOneTurn ===true} className='neon_blue'/>
             </div>
             <div id='bottom_row_pits'>
-                <Pit id={8} weight={seeds[8]} onClick={startMove} className='neon_blue'/>
-                <Pit id={9} weight={seeds[9]} onClick={startMove} className='neon_blue'/>
-                <Pit id={10} weight={seeds[10]} onClick={startMove} className='neon_blue'/>
-                <Pit id={11} weight={seeds[11]} onClick={startMove} className='neon_blue'/>
-                <Pit id={12} weight={seeds[12]} onClick={startMove} className='neon_blue'/>
-                <Pit id={13} weight={seeds[13]} onClick={startMove} className='neon_blue'/>
+                <Pit id={8} weight={seeds[8]} enabled={playerOneTurn ===true} onClick={startMove} className='neon_blue'/>
+                <Pit id={9} weight={seeds[9]} enabled={playerOneTurn ===true} onClick={startMove} className='neon_blue'/>
+                <Pit id={10} weight={seeds[10]} enabled={playerOneTurn ===true} onClick={startMove} className='neon_blue'/>
+                <Pit id={11} weight={seeds[11]} enabled={playerOneTurn ===true} onClick={startMove} className='neon_blue'/>
+                <Pit id={12} weight={seeds[12]} enabled={playerOneTurn ===true} onClick={startMove} className='neon_blue'/>
+                <Pit id={13} weight={seeds[13]} enabled={playerOneTurn ===true} onClick={startMove} className='neon_blue'/>
             </div>
     </div>
     </div> 

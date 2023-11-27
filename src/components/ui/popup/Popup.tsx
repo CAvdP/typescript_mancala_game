@@ -1,5 +1,5 @@
 import React from 'react';
-import './Popup.scss';
+import './styling/Popup.scss';
 
 interface Props {
 player1Points: number;

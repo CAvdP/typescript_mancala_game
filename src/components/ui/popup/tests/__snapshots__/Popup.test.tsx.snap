@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup Component matches the saved snapshot 1`] = `
+<div
+  className="neon_pink"
+  id="pop-up"
+>
+  <h1>
+    Player two won with 0 points!
+     
+  </h1>
+  <button
+    className="neon_pink_blue btn"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+</div>
+`;
